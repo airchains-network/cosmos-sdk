@@ -7,7 +7,7 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/codec/types"
 )
 
 type Animal interface {

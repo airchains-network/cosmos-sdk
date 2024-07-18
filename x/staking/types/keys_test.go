@@ -13,10 +13,10 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 var (

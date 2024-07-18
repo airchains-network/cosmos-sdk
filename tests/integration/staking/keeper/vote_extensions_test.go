@@ -12,13 +12,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	ed25519 "github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	ed25519 "github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/x/staking/testutil"
+	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func TestValidateVoteExtensions(t *testing.T) {

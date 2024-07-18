@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
+	"github.com/airchains-network/cosmos-sdk/x/genutil/client/cli"
 )
 
 // An example exported genesis file from a 0.37 chain. Note that evidence

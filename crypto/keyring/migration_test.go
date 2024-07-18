@@ -9,12 +9,12 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/codec/legacy"
+	"github.com/airchains-network/cosmos-sdk/crypto/hd"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/multisig"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
 )
 
 const n1 = "cosmos.info"

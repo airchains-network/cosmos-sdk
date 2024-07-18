@@ -6,9 +6,9 @@ import (
 
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	"github.com/airchains-network/cosmos-sdk/version"
 )
 
 // AppBuilder is a type that is injected into a container by the runtime module

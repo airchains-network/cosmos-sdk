@@ -7,11 +7,11 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	grpctypes "github.com/airchains-network/cosmos-sdk/types/grpc"
+	"github.com/airchains-network/cosmos-sdk/types/query"
+	"github.com/airchains-network/cosmos-sdk/x/bank/types"
 )
 
 func (s *E2ETestSuite) TestTotalSupplyGRPCHandler() {

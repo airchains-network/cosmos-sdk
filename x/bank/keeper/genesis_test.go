@@ -3,10 +3,10 @@ package keeper_test
 import (
 	sdkmath "cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
-	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/query"
+	"github.com/airchains-network/cosmos-sdk/x/bank/types"
+	minttypes "github.com/airchains-network/cosmos-sdk/x/mint/types"
 )
 
 func (suite *KeeperTestSuite) TestExportGenesis() {

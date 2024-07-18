@@ -17,12 +17,12 @@ import (
 	"cosmossdk.io/x/nft/keeper"
 	"cosmossdk.io/x/nft/simulation"
 
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	sdkclient "github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	cdctypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
 )
 
 var (

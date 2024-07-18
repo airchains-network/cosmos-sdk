@@ -7,10 +7,10 @@ import (
 
 	"cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/secp256k1"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
 )
 
 // FromCmtProtoPublicKey converts a CMT's cmtprotocrypto.PublicKey into our own PubKey.

@@ -11,14 +11,14 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/codec/legacy"
-	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/codec/legacy"
+	cryptocodec "github.com/airchains-network/cosmos-sdk/crypto/codec"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/x/staking/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func TestValidatorTestEquivalent(t *testing.T) {

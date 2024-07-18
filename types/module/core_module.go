@@ -11,10 +11,10 @@ import (
 	"cosmossdk.io/core/genesis"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
 )
 
 var (

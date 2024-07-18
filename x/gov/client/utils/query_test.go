@@ -11,12 +11,12 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/gov"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/utils"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	"github.com/airchains-network/cosmos-sdk/client"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/gov"
+	"github.com/airchains-network/cosmos-sdk/x/gov/client/utils"
+	v1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
 )
 
 type TxSearchMock struct {

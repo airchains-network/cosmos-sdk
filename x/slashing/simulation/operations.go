@@ -4,17 +4,17 @@ import (
 	"errors"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
+	"github.com/airchains-network/cosmos-sdk/x/simulation"
+	"github.com/airchains-network/cosmos-sdk/x/slashing/keeper"
+	"github.com/airchains-network/cosmos-sdk/x/slashing/types"
 )
 
 // Simulation operation weights constants

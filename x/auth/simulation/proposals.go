@@ -3,11 +3,11 @@ package simulation
 import (
 	"math/rand"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/address"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
+	"github.com/airchains-network/cosmos-sdk/x/auth/types"
+	"github.com/airchains-network/cosmos-sdk/x/simulation"
 )
 
 // Simulation operation weights constants

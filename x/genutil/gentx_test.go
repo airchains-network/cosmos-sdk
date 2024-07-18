@@ -15,16 +15,16 @@ import (
 	"cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil"
-	genutiltestutil "github.com/cosmos/cosmos-sdk/x/genutil/testutil"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
+	"github.com/airchains-network/cosmos-sdk/x/genutil"
+	genutiltestutil "github.com/airchains-network/cosmos-sdk/x/genutil/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/genutil/types"
+	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 var (

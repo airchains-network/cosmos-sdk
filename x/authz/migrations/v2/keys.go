@@ -3,10 +3,10 @@ package v2
 import (
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/internal/conv"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/airchains-network/cosmos-sdk/internal/conv"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/address"
+	"github.com/airchains-network/cosmos-sdk/types/kv"
 )
 
 // Keys for store prefixes

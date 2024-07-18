@@ -7,13 +7,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	v3 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v3"
-	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
-	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/airchains-network/cosmos-sdk/codec/address"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/query"
+	v3 "github.com/airchains-network/cosmos-sdk/x/gov/migrations/v3"
+	v1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
+	"github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 func (suite *KeeperTestSuite) TestGRPCQueryProposal() {

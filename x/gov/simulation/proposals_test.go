@@ -7,9 +7,9 @@ import (
 	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"gotest.tools/v3/assert"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/simulation"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
+	"github.com/airchains-network/cosmos-sdk/x/gov/simulation"
 )
 
 func TestProposalMsgs(t *testing.T) {

@@ -6,9 +6,9 @@ import (
 	gogogrpc "github.com/cosmos/gogoproto/grpc"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/server/config"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/server/config"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
 )
 
 // RegisterNodeService registers the node gRPC service on the provided gRPC router.

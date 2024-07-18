@@ -6,8 +6,8 @@ import (
 
 	"cosmossdk.io/x/feegrant"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	"github.com/airchains-network/cosmos-sdk/types/kv"
 )
 
 // NewDecodeStore returns a decoder function closure that unmarshals the KVPair's

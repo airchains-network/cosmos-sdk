@@ -7,7 +7,7 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func TestParamsEqual(t *testing.T) {

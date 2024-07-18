@@ -8,8 +8,8 @@ import (
 	context "context"
 	reflect "reflect"
 
+	types "github.com/airchains-network/cosmos-sdk/types"
 	crypto "github.com/cometbft/cometbft/proto/tendermint/crypto"
-	types "github.com/cosmos/cosmos-sdk/types"
 	gomock "github.com/golang/mock/gomock"
 )
 

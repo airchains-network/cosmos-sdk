@@ -14,17 +14,17 @@ import (
 	"cosmossdk.io/depinject"
 	store "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	sdkclient "github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	sdkclient "github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	cdctypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
+	"github.com/airchains-network/cosmos-sdk/x/group"
+	"github.com/airchains-network/cosmos-sdk/x/group/client/cli"
+	"github.com/airchains-network/cosmos-sdk/x/group/keeper"
+	"github.com/airchains-network/cosmos-sdk/x/group/simulation"
 )
 
 // ConsensusVersion defines the current x/group module consensus version.

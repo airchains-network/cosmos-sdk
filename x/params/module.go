@@ -10,15 +10,15 @@ import (
 	"cosmossdk.io/depinject"
 	store "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/cosmos/cosmos-sdk/x/params/keeper"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
+	govv1beta1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/airchains-network/cosmos-sdk/x/params/keeper"
+	"github.com/airchains-network/cosmos-sdk/x/params/types"
+	"github.com/airchains-network/cosmos-sdk/x/params/types/proposal"
 )
 
 var (

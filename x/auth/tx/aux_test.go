@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	_ "github.com/cosmos/cosmos-sdk/testutil/testdata/testpb"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	clienttx "github.com/airchains-network/cosmos-sdk/client/tx"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	_ "github.com/airchains-network/cosmos-sdk/testutil/testdata/testpb"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
+	authsigning "github.com/airchains-network/cosmos-sdk/x/auth/signing"
 )
 
 var (

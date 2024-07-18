@@ -5,17 +5,17 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	typestx "github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/airchains-network/cosmos-sdk/client/tx"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	typestx "github.com/airchains-network/cosmos-sdk/types/tx"
+	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
+	"github.com/airchains-network/cosmos-sdk/x/bank"
+	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
 )
 
 const (

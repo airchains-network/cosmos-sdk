@@ -6,9 +6,9 @@ import (
 	"cosmossdk.io/core/address"
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	paramtypes "github.com/airchains-network/cosmos-sdk/x/params/types"
+	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 // AccountKeeper expected account keeper

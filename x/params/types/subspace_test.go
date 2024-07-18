@@ -15,11 +15,11 @@ import (
 	"cosmossdk.io/store/metrics"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	paramsmodule "github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	paramsmodule "github.com/airchains-network/cosmos-sdk/x/params"
+	"github.com/airchains-network/cosmos-sdk/x/params/types"
 )
 
 type SubspaceTestSuite struct {

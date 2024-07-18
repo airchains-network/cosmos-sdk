@@ -14,28 +14,28 @@ import (
 	"cosmossdk.io/math"
 	"cosmossdk.io/simapp"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	clienttx "github.com/cosmos/cosmos-sdk/client/tx"
-	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/types/tx"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	authtest "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
-	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
-	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/client/flags"
+	clienttx "github.com/airchains-network/cosmos-sdk/client/tx"
+	addresscodec "github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/crypto/hd"
+	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/airchains-network/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	"github.com/airchains-network/cosmos-sdk/testutil/cli"
+	"github.com/airchains-network/cosmos-sdk/testutil/network"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/types/query"
+	"github.com/airchains-network/cosmos-sdk/types/tx"
+	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
+	authclient "github.com/airchains-network/cosmos-sdk/x/auth/client"
+	authtest "github.com/airchains-network/cosmos-sdk/x/auth/client/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/auth/migrations/legacytx"
+	authtx "github.com/airchains-network/cosmos-sdk/x/auth/tx"
+	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
 )
 
 var bankMsgSendEventAction = fmt.Sprintf("message.action='%s'", sdk.MsgTypeURL(&banktypes.MsgSend{}))
@@ -323,8 +323,8 @@ func (s *E2ETestSuite) TestGetTxEvents_GRPC() {
 				s.Require().Equal(tc.expLen, len(grpcRes.Txs))
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://github.com/airchains-network/cosmos-sdk/issues/8680
+				// ref: https://github.com/airchains-network/cosmos-sdk/issues/8681
 				s.Require().NotEmpty(grpcRes.TxResponses[0].Timestamp)
 				s.Require().Empty(grpcRes.TxResponses[0].RawLog) // logs are empty if the transactions are successful
 			}
@@ -474,8 +474,8 @@ func (s *E2ETestSuite) TestGetTx_GRPCGateway() {
 				s.Require().NotZero(result.TxResponse.Height)
 
 				// Make sure fields are populated.
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8680
-				// ref: https://github.com/cosmos/cosmos-sdk/issues/8681
+				// ref: https://github.com/airchains-network/cosmos-sdk/issues/8680
+				// ref: https://github.com/airchains-network/cosmos-sdk/issues/8681
 				s.Require().NotEmpty(result.TxResponse.Timestamp)
 				s.Require().Empty(result.TxResponse.RawLog) // logs are empty on successful transactions
 			}

@@ -6,9 +6,9 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 // initialize starting info for a new delegation

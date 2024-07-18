@@ -11,12 +11,12 @@ import (
 
 	"github.com/cosmos/gogoproto/jsonpb"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/client/tx"
+	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
 )
 
 // GasEstimateResponse defines a response definition for tx gas estimation.

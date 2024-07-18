@@ -32,15 +32,15 @@ import (
 	snapshottypes "cosmossdk.io/store/snapshots/types"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	baseapptestutil "github.com/cosmos/cosmos-sdk/baseapp/testutil"
-	"github.com/cosmos/cosmos-sdk/baseapp/testutil/mock"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/mempool"
-	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	baseapptestutil "github.com/airchains-network/cosmos-sdk/baseapp/testutil"
+	"github.com/airchains-network/cosmos-sdk/baseapp/testutil/mock"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/types/mempool"
+	"github.com/airchains-network/cosmos-sdk/x/auth/signing"
 )
 
 func TestABCI_Info(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	slashingtypes "github.com/airchains-network/cosmos-sdk/x/slashing/types"
+	"github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func (s *KeeperTestSuite) TestUpdateParams() {

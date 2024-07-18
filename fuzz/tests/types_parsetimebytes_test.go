@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types"
 )
 
 func FuzzTypesParseTimeBytes(f *testing.F) {

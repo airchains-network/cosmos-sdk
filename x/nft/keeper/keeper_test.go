@@ -14,13 +14,13 @@ import (
 	"cosmossdk.io/x/nft/module"
 	nfttestutil "cosmossdk.io/x/nft/testutil"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	"github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/runtime"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
 )
 
 const (

@@ -6,9 +6,9 @@ package types
 import (
 	context "context"
 	fmt "fmt"
+	query "github.com/airchains-network/cosmos-sdk/types/query"
+	_ "github.com/airchains-network/cosmos-sdk/types/tx/amino"
 	_ "github.com/cosmos/cosmos-proto"
-	query "github.com/cosmos/cosmos-sdk/types/query"
-	_ "github.com/cosmos/cosmos-sdk/types/tx/amino"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"

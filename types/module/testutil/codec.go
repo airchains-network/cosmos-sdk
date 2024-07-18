@@ -1,13 +1,13 @@
 package testutil
 
 import (
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/codec/testutil"
-	"github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/std"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	"github.com/airchains-network/cosmos-sdk/codec/testutil"
+	"github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/std"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	"github.com/airchains-network/cosmos-sdk/x/auth/tx"
 )
 
 // TestEncodingConfig defines an encoding configuration that is used for testing

@@ -11,13 +11,13 @@ import (
 	"cosmossdk.io/x/circuit/keeper"
 	"cosmossdk.io/x/circuit/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	addresscodec "github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/runtime"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
 )
 
 type GenesisTestSuite struct {

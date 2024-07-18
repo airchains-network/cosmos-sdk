@@ -8,9 +8,9 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	"github.com/airchains-network/cosmos-sdk/types/simulation"
+	"github.com/airchains-network/cosmos-sdk/x/slashing/types"
 )
 
 // Simulation parameter constants

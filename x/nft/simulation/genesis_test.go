@@ -12,10 +12,10 @@ import (
 	nftmodule "cosmossdk.io/x/nft/module"
 	"cosmossdk.io/x/nft/simulation"
 
-	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	addresscodec "github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
 )
 
 func TestRandomizedGenState(t *testing.T) {

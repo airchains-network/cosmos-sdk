@@ -14,17 +14,17 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/simapp"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/config"
-	"github.com/cosmos/cosmos-sdk/codec"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/server"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth/tx"
-	authtxconfig "github.com/cosmos/cosmos-sdk/x/auth/tx/config"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/client/config"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
+	"github.com/airchains-network/cosmos-sdk/server"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	"github.com/airchains-network/cosmos-sdk/types/module"
+	"github.com/airchains-network/cosmos-sdk/x/auth/tx"
+	authtxconfig "github.com/airchains-network/cosmos-sdk/x/auth/tx/config"
+	"github.com/airchains-network/cosmos-sdk/x/auth/types"
 )
 
 // NewRootCmd creates a new root command for simd. It is called once in the main function.

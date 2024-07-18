@@ -10,12 +10,12 @@ import (
 	reflect "reflect"
 
 	appmodule "cosmossdk.io/core/appmodule"
+	client "github.com/airchains-network/cosmos-sdk/client"
+	codec "github.com/airchains-network/cosmos-sdk/codec"
+	types0 "github.com/airchains-network/cosmos-sdk/codec/types"
+	types1 "github.com/airchains-network/cosmos-sdk/types"
+	module "github.com/airchains-network/cosmos-sdk/types/module"
 	types "github.com/cometbft/cometbft/abci/types"
-	client "github.com/cosmos/cosmos-sdk/client"
-	codec "github.com/cosmos/cosmos-sdk/codec"
-	types0 "github.com/cosmos/cosmos-sdk/codec/types"
-	types1 "github.com/cosmos/cosmos-sdk/types"
-	module "github.com/cosmos/cosmos-sdk/types/module"
 	gomock "github.com/golang/mock/gomock"
 	runtime "github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

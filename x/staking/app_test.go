@@ -11,16 +11,16 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	bankKeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	stakingKeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/secp256k1"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
+	bankKeeper "github.com/airchains-network/cosmos-sdk/x/bank/keeper"
+	stakingKeeper "github.com/airchains-network/cosmos-sdk/x/staking/keeper"
+	"github.com/airchains-network/cosmos-sdk/x/staking/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 var (

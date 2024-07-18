@@ -10,9 +10,9 @@ import (
 
 	"cosmossdk.io/log"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/mempool"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types/mempool"
+	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
 )
 
 func (s *MempoolTestSuite) TestTxOrder() {

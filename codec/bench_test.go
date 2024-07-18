@@ -9,11 +9,11 @@ import (
 
 	bankv1beta1 "cosmossdk.io/api/cosmos/bank/v1beta1"
 
-	codectestutil "github.com/cosmos/cosmos-sdk/codec/testutil"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	codectestutil "github.com/airchains-network/cosmos-sdk/codec/testutil"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
 )
 
 type bankSendWrapper struct {

@@ -8,14 +8,14 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
-	"github.com/cosmos/cosmos-sdk/crypto/ledger"
-	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerr "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/client/flags"
+	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/multisig"
+	"github.com/airchains-network/cosmos-sdk/crypto/ledger"
+	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdkerr "github.com/airchains-network/cosmos-sdk/types/errors"
 )
 
 const (

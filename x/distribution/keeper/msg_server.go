@@ -7,11 +7,11 @@ import (
 
 	"cosmossdk.io/errors"
 
-	"github.com/cosmos/cosmos-sdk/telemetry"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/airchains-network/cosmos-sdk/telemetry"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/x/distribution/types"
+	govtypes "github.com/airchains-network/cosmos-sdk/x/gov/types"
 )
 
 type msgServer struct {

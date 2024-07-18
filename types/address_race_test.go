@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/types"
 )
 
 // generates AccAddress with `prefix` and calls String method

@@ -10,10 +10,10 @@ import (
 	"cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/authz"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/runtime"
+	"github.com/airchains-network/cosmos-sdk/types/query"
+	"github.com/airchains-network/cosmos-sdk/x/authz"
 )
 
 var _ authz.QueryServer = Keeper{}

@@ -7,12 +7,12 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/codec/address"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	stakingkeeper "github.com/airchains-network/cosmos-sdk/x/staking/keeper"
+	"github.com/airchains-network/cosmos-sdk/x/staking/testutil"
+	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func createValAddrs(count int) ([]sdk.AccAddress, []sdk.ValAddress) {

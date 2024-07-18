@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/airchains-network/cosmos-sdk/server"
 )
 
 // ListSnapshotsCmd returns the command to list local snapshots

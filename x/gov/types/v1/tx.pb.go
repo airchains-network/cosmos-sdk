@@ -6,12 +6,12 @@ package v1
 import (
 	context "context"
 	fmt "fmt"
+	types "github.com/airchains-network/cosmos-sdk/codec/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/airchains-network/cosmos-sdk/types"
+	types1 "github.com/airchains-network/cosmos-sdk/types"
+	_ "github.com/airchains-network/cosmos-sdk/types/msgservice"
+	_ "github.com/airchains-network/cosmos-sdk/types/tx/amino"
 	_ "github.com/cosmos/cosmos-proto"
-	types "github.com/cosmos/cosmos-sdk/codec/types"
-	github_com_cosmos_cosmos_sdk_types "github.com/cosmos/cosmos-sdk/types"
-	types1 "github.com/cosmos/cosmos-sdk/types"
-	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
-	_ "github.com/cosmos/cosmos-sdk/types/tx/amino"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
@@ -44,7 +44,7 @@ type MsgSubmitProposal struct {
 	// messages are the arbitrary messages to be executed if proposal passes.
 	Messages []*types.Any `protobuf:"bytes,1,rep,name=messages,proto3" json:"messages,omitempty"`
 	// initial_deposit is the deposit value that must be paid at proposal submission.
-	InitialDeposit github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=initial_deposit,json=initialDeposit,proto3,castrepeated=github.com/cosmos/cosmos-sdk/types.Coins" json:"initial_deposit"`
+	InitialDeposit github_com_cosmos_cosmos_sdk_types.Coins `protobuf:"bytes,2,rep,name=initial_deposit,json=initialDeposit,proto3,castrepeated=github.com/airchains-network/cosmos-sdk/types.Coins" json:"initial_deposit"`
 	// proposer is the account address of the proposer.
 	Proposer string `protobuf:"bytes,3,opt,name=proposer,proto3" json:"proposer,omitempty"`
 	// metadata is any arbitrary metadata attached to the proposal.

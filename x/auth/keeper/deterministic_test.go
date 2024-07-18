@@ -13,17 +13,17 @@ import (
 	corestore "cosmossdk.io/core/store"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/cosmos/cosmos-sdk/runtime"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authcodec "github.com/cosmos/cosmos-sdk/x/auth/codec"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	"github.com/airchains-network/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/airchains-network/cosmos-sdk/runtime"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/auth"
+	authcodec "github.com/airchains-network/cosmos-sdk/x/auth/codec"
+	"github.com/airchains-network/cosmos-sdk/x/auth/keeper"
+	"github.com/airchains-network/cosmos-sdk/x/auth/types"
 )
 
 type DeterministicTestSuite struct {

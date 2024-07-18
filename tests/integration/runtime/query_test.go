@@ -15,17 +15,17 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/testutil/configurator"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	_ "github.com/cosmos/cosmos-sdk/x/auth"
-	_ "github.com/cosmos/cosmos-sdk/x/auth/tx/config"
-	_ "github.com/cosmos/cosmos-sdk/x/bank"
-	_ "github.com/cosmos/cosmos-sdk/x/consensus"
-	_ "github.com/cosmos/cosmos-sdk/x/params"
-	_ "github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/airchains-network/cosmos-sdk/baseapp"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/testutil/configurator"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	_ "github.com/airchains-network/cosmos-sdk/x/auth"
+	_ "github.com/airchains-network/cosmos-sdk/x/auth/tx/config"
+	_ "github.com/airchains-network/cosmos-sdk/x/bank"
+	_ "github.com/airchains-network/cosmos-sdk/x/consensus"
+	_ "github.com/airchains-network/cosmos-sdk/x/params"
+	_ "github.com/airchains-network/cosmos-sdk/x/staking"
 )
 
 type fixture struct {

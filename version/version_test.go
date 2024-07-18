@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	"github.com/cosmos/cosmos-sdk/testutil/cmdtest"
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/airchains-network/cosmos-sdk/client/flags"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	"github.com/airchains-network/cosmos-sdk/testutil/cmdtest"
+	"github.com/airchains-network/cosmos-sdk/version"
 )
 
 func TestNewInfo(t *testing.T) {

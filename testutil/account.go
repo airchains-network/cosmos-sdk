@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/crypto/hd"
+	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
+	"github.com/airchains-network/cosmos-sdk/types"
 )
 
 type TestAccount struct {

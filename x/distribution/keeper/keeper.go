@@ -9,10 +9,10 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/log"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/airchains-network/cosmos-sdk/codec"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
+	"github.com/airchains-network/cosmos-sdk/x/distribution/types"
 )
 
 // Keeper of the distribution store

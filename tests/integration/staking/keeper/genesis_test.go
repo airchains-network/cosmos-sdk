@@ -10,11 +10,11 @@ import (
 
 	"cosmossdk.io/math"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	banktestutil "github.com/airchains-network/cosmos-sdk/x/bank/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/staking"
+	"github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func bootstrapGenesisTest(t *testing.T, numAddrs int) (*fixture, []sdk.AccAddress) {

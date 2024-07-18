@@ -10,15 +10,15 @@ import (
 
 	"cosmossdk.io/core/address"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/client/tx"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
-	"github.com/cosmos/cosmos-sdk/x/authz"
-	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
-	staking "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/client/flags"
+	"github.com/airchains-network/cosmos-sdk/client/tx"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/version"
+	authclient "github.com/airchains-network/cosmos-sdk/x/auth/client"
+	"github.com/airchains-network/cosmos-sdk/x/authz"
+	bank "github.com/airchains-network/cosmos-sdk/x/bank/types"
+	staking "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 // Flag names and values

@@ -11,17 +11,17 @@ import (
 	_ "cosmossdk.io/api/cosmos/group/v1"
 	"cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec/address"
-	"github.com/cosmos/cosmos-sdk/crypto/hd"
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/cosmos/cosmos-sdk/testutil/network"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	client "github.com/cosmos/cosmos-sdk/x/group/client/cli"
+	"github.com/airchains-network/cosmos-sdk/client/flags"
+	"github.com/airchains-network/cosmos-sdk/codec/address"
+	"github.com/airchains-network/cosmos-sdk/crypto/hd"
+	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
+	"github.com/airchains-network/cosmos-sdk/testutil/network"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
+	"github.com/airchains-network/cosmos-sdk/x/group"
+	client "github.com/airchains-network/cosmos-sdk/x/group/client/cli"
 )
 
 type E2ETestSuite struct {

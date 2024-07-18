@@ -5,9 +5,9 @@ import (
 
 	"cosmossdk.io/core/genesis"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/genutil/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/airchains-network/cosmos-sdk/x/genutil/types"
 )
 
 // InitGenesis - initialize accounts and deliver genesis transactions

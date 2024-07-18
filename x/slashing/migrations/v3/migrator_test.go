@@ -7,13 +7,13 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/cosmos/cosmos-sdk/testutil"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	"github.com/cosmos/cosmos-sdk/x/slashing"
-	"github.com/cosmos/cosmos-sdk/x/slashing/exported"
-	v3 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v3"
-	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	"github.com/airchains-network/cosmos-sdk/x/slashing"
+	"github.com/airchains-network/cosmos-sdk/x/slashing/exported"
+	v3 "github.com/airchains-network/cosmos-sdk/x/slashing/migrations/v3"
+	"github.com/airchains-network/cosmos-sdk/x/slashing/types"
 )
 
 type mockSubspace struct {

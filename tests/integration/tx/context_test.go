@@ -10,10 +10,10 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/x/tx/signing"
 
-	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/cosmos/cosmos-sdk/tests/integration/tx/internal/pulsar/testpb"
-	"github.com/cosmos/cosmos-sdk/testutil/configurator"
-	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/airchains-network/cosmos-sdk/tests/integration/tx/internal/pulsar/testpb"
+	"github.com/airchains-network/cosmos-sdk/testutil/configurator"
+	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
 )
 
 func ProvideCustomGetSigners() signing.CustomGetSigner {

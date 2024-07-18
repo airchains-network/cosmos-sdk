@@ -8,11 +8,11 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
-	v2bank "github.com/cosmos/cosmos-sdk/x/bank/migrations/v2"
-	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/airchains-network/cosmos-sdk/client"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	v2bank "github.com/airchains-network/cosmos-sdk/x/bank/migrations/v2"
+	"github.com/airchains-network/cosmos-sdk/x/bank/types"
 )
 
 func TestMigrateJSON(t *testing.T) {

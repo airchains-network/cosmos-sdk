@@ -7,7 +7,7 @@ import (
 	"cosmossdk.io/simapp"
 	"cosmossdk.io/simapp/simd/cmd"
 
-	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
+	svrcmd "github.com/airchains-network/cosmos-sdk/server/cmd"
 )
 
 func main() {

@@ -5,12 +5,12 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/testutil"
-	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	govcli "github.com/cosmos/cosmos-sdk/x/gov/client/cli"
+	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/airchains-network/cosmos-sdk/client/flags"
+	"github.com/airchains-network/cosmos-sdk/testutil"
+	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	govcli "github.com/airchains-network/cosmos-sdk/x/gov/client/cli"
 )
 
 var commonArgs = []string{

@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	sdk "github.com/airchains-network/cosmos-sdk/types"
+	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
 )
 
 func (s *KeeperTestSuite) TestAfterValidatorBonded() {
