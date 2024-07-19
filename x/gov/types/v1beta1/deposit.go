@@ -3,7 +3,7 @@ package v1beta1
 import (
 	"fmt"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // NewDeposit creates a new Deposit instance

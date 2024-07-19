@@ -5,13 +5,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	addresscodec "github.com/airchains-network/cosmos-sdk/codec/address"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	stakingcli "github.com/airchains-network/cosmos-sdk/x/staking/client/cli"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	stakingcli "github.com/cosmos/cosmos-sdk/x/staking/client/cli"
 )
 
 var commonArgs = []string{

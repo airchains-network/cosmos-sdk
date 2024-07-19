@@ -5,9 +5,9 @@ package testutil
 import (
 	context "context"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	bank "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	"github.com/airchains-network/cosmos-sdk/x/group"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/x/group"
 )
 
 // AccountKeeper extends `AccountKeeper` from expected_keepers.

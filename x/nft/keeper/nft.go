@@ -7,8 +7,8 @@ import (
 	"cosmossdk.io/store/prefix"
 	"cosmossdk.io/x/nft"
 
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // Mint defines a method for minting a new nft

@@ -6,12 +6,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/client/tx"
-	kmultisig "github.com/airchains-network/cosmos-sdk/crypto/keys/multisig"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	authclient "github.com/airchains-network/cosmos-sdk/x/auth/client"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/client/tx"
+	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
 )
 
 const (
@@ -136,7 +136,7 @@ func makeSignBatchCmd() func(cmd *cobra.Command, args []string) error {
 				newGasLimit += fe.GetTx().GetGas()
 				// Individual fee values from each transaction need to be
 				// aggregated to calculate the total fee for the batch of transactions.
-				// https://github.com/airchains-network/cosmos-sdk/issues/18064
+				// https://github.com/cosmos/cosmos-sdk/issues/18064
 				unmergedFees := fe.GetTx().GetFee()
 				for _, fee := range unmergedFees {
 					totalFees = totalFees.Add(fee)

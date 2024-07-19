@@ -1,7 +1,7 @@
 package v1
 
 import (
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // query endpoints supported by the governance Querier

@@ -9,16 +9,16 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	govv1beta1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
-	"github.com/airchains-network/cosmos-sdk/x/params"
-	"github.com/airchains-network/cosmos-sdk/x/params/keeper"
-	paramstestutil "github.com/airchains-network/cosmos-sdk/x/params/testutil"
-	paramtypes "github.com/airchains-network/cosmos-sdk/x/params/types"
-	"github.com/airchains-network/cosmos-sdk/x/params/types/proposal"
-	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/cosmos/cosmos-sdk/x/params"
+	"github.com/cosmos/cosmos-sdk/x/params/keeper"
+	paramstestutil "github.com/cosmos/cosmos-sdk/x/params/testutil"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 // StakingKeeper defines the expected staking keeper

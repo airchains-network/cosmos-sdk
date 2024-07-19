@@ -11,9 +11,9 @@ import (
 	"cosmossdk.io/log"
 	"cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 // Implements ValidatorSet interface

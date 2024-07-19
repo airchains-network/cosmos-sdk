@@ -6,14 +6,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	"github.com/airchains-network/cosmos-sdk/types/kv"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/group"
-	"github.com/airchains-network/cosmos-sdk/x/group/internal/orm"
-	"github.com/airchains-network/cosmos-sdk/x/group/keeper"
-	"github.com/airchains-network/cosmos-sdk/x/group/module"
-	"github.com/airchains-network/cosmos-sdk/x/group/simulation"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/cosmos/cosmos-sdk/types/kv"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
+	"github.com/cosmos/cosmos-sdk/x/group/keeper"
+	"github.com/cosmos/cosmos-sdk/x/group/module"
+	"github.com/cosmos/cosmos-sdk/x/group/simulation"
 )
 
 func TestDecodeStore(t *testing.T) {

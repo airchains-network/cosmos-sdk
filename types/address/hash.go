@@ -10,7 +10,7 @@ import (
 
 	"cosmossdk.io/errors"
 
-	"github.com/airchains-network/cosmos-sdk/internal/conv"
+	"github.com/cosmos/cosmos-sdk/internal/conv"
 )
 
 // Len is the length of base addresses

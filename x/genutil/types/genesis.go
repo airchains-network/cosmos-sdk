@@ -16,7 +16,7 @@ import (
 	cmttypes "github.com/cometbft/cometbft/types"
 	cmttime "github.com/cometbft/cometbft/types/time"
 
-	"github.com/airchains-network/cosmos-sdk/version"
+	"github.com/cosmos/cosmos-sdk/version"
 )
 
 const (

@@ -12,19 +12,19 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	addresscodec "github.com/airchains-network/cosmos-sdk/codec/address"
-	"github.com/airchains-network/cosmos-sdk/crypto/hd"
-	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
-	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	testutilmod "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/staking"
-	"github.com/airchains-network/cosmos-sdk/x/staking/client/cli"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
+	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
 )
 
 var PKs = simtestutil.CreateTestPubKeys(500)
@@ -387,7 +387,7 @@ func (s *CLITestSuite) TestNewEditValidatorCmd() {
 			"",
 		},
 		{
-			"edit validator moniker", // https://github.com/airchains-network/cosmos-sdk/issues/10660
+			"edit validator moniker", // https://github.com/cosmos/cosmos-sdk/issues/10660
 			[]string{
 				fmt.Sprintf("--%s=%s", cli.FlagEditMoniker, moniker),
 				fmt.Sprintf("--%s=%s", flags.FlagFrom, s.addrs[0]),

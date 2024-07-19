@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/group"
-	"github.com/airchains-network/cosmos-sdk/x/group/module"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/cosmos/cosmos-sdk/x/group/module"
 )
 
 // TestGogoUnmarshalProposal tests some weird behavior in gogoproto

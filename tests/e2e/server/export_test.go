@@ -20,13 +20,13 @@ import (
 
 	"cosmossdk.io/log"
 	"cosmossdk.io/simapp"
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/server"
-	"github.com/airchains-network/cosmos-sdk/server/types"
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	"github.com/airchains-network/cosmos-sdk/x/genutil"
-	genutiltypes "github.com/airchains-network/cosmos-sdk/x/genutil/types"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/cosmos/cosmos-sdk/server/types"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	"github.com/cosmos/cosmos-sdk/x/genutil"
+	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 )
 
 func TestExportCmd_ConsensusParams(t *testing.T) {

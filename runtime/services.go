@@ -9,9 +9,9 @@ import (
 	"cosmossdk.io/core/comet"
 	"cosmossdk.io/core/header"
 
-	"github.com/airchains-network/cosmos-sdk/runtime/services"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/module"
+	"github.com/cosmos/cosmos-sdk/runtime/services"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/module"
 )
 
 func (a *App) registerRuntimeServices(cfg module.Configurator) error {

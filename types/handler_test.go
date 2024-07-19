@@ -6,8 +6,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/testutil/mock"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/testutil/mock"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func TestChainAnteDecorators(t *testing.T) {

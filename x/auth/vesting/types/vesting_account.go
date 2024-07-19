@@ -7,9 +7,9 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
-	vestexported "github.com/airchains-network/cosmos-sdk/x/auth/vesting/exported"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	vestexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
 )
 
 // Compile-time type assertions

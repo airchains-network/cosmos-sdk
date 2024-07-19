@@ -3,10 +3,10 @@ package tx
 import (
 	"fmt"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	types "github.com/airchains-network/cosmos-sdk/types/tx"
-	signingtypes "github.com/airchains-network/cosmos-sdk/types/tx/signing"
-	"github.com/airchains-network/cosmos-sdk/x/auth/signing"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	types "github.com/cosmos/cosmos-sdk/types/tx"
+	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/x/auth/signing"
 )
 
 // signModeDirectHandler defines the SIGN_MODE_DIRECT SignModeHandler

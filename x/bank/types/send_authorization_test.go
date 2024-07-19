@@ -10,9 +10,9 @@ import (
 	sdkmath "cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/bank/types"
 )
 
 var (

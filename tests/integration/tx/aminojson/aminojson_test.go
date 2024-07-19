@@ -38,42 +38,42 @@ import (
 	signing_testutil "cosmossdk.io/x/tx/signing/testutil"
 	"cosmossdk.io/x/upgrade"
 
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	ed25519types "github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/airchains-network/cosmos-sdk/crypto/keys/multisig"
-	secp256k1types "github.com/airchains-network/cosmos-sdk/crypto/keys/secp256k1"
-	"github.com/airchains-network/cosmos-sdk/tests/integration/rapidgen"
-	gogo_testpb "github.com/airchains-network/cosmos-sdk/tests/integration/tx/internal/gogo/testpb"
-	pulsar_testpb "github.com/airchains-network/cosmos-sdk/tests/integration/tx/internal/pulsar/testpb"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	"github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/bech32"
-	"github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	signingtypes "github.com/airchains-network/cosmos-sdk/types/tx/signing"
-	"github.com/airchains-network/cosmos-sdk/x/auth"
-	"github.com/airchains-network/cosmos-sdk/x/auth/migrations/legacytx"
-	"github.com/airchains-network/cosmos-sdk/x/auth/signing"
-	"github.com/airchains-network/cosmos-sdk/x/auth/tx"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
-	"github.com/airchains-network/cosmos-sdk/x/auth/vesting"
-	vestingtypes "github.com/airchains-network/cosmos-sdk/x/auth/vesting/types"
-	authztypes "github.com/airchains-network/cosmos-sdk/x/authz"
-	authzmodule "github.com/airchains-network/cosmos-sdk/x/authz/module"
-	"github.com/airchains-network/cosmos-sdk/x/bank"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	"github.com/airchains-network/cosmos-sdk/x/consensus"
-	"github.com/airchains-network/cosmos-sdk/x/distribution"
-	disttypes "github.com/airchains-network/cosmos-sdk/x/distribution/types"
-	"github.com/airchains-network/cosmos-sdk/x/gov"
-	gov_v1_types "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
-	gov_v1beta1_types "github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
-	groupmodule "github.com/airchains-network/cosmos-sdk/x/group/module"
-	"github.com/airchains-network/cosmos-sdk/x/mint"
-	"github.com/airchains-network/cosmos-sdk/x/params"
-	"github.com/airchains-network/cosmos-sdk/x/slashing"
-	slashingtypes "github.com/airchains-network/cosmos-sdk/x/slashing/types"
-	"github.com/airchains-network/cosmos-sdk/x/staking"
-	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	ed25519types "github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
+	secp256k1types "github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
+	"github.com/cosmos/cosmos-sdk/tests/integration/rapidgen"
+	gogo_testpb "github.com/cosmos/cosmos-sdk/tests/integration/tx/internal/gogo/testpb"
+	pulsar_testpb "github.com/cosmos/cosmos-sdk/tests/integration/tx/internal/pulsar/testpb"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/bech32"
+	"github.com/cosmos/cosmos-sdk/types/module/testutil"
+	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/x/auth"
+	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
+	"github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/cosmos/cosmos-sdk/x/auth/tx"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/vesting"
+	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	authztypes "github.com/cosmos/cosmos-sdk/x/authz"
+	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
+	"github.com/cosmos/cosmos-sdk/x/bank"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/x/consensus"
+	"github.com/cosmos/cosmos-sdk/x/distribution"
+	disttypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/cosmos/cosmos-sdk/x/gov"
+	gov_v1_types "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	gov_v1beta1_types "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	groupmodule "github.com/cosmos/cosmos-sdk/x/group/module"
+	"github.com/cosmos/cosmos-sdk/x/mint"
+	"github.com/cosmos/cosmos-sdk/x/params"
+	"github.com/cosmos/cosmos-sdk/x/slashing"
+	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
+	"github.com/cosmos/cosmos-sdk/x/staking"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 // TestAminoJSON_Equivalence tests that x/tx/Encoder encoding is equivalent to the legacy Encoder encoding.
@@ -496,7 +496,7 @@ func TestSendAuthorization(t *testing.T) {
 	// beware, Coins has as custom MarshalJSON method which changes how nil is handled
 	// nil -> [] (empty list)
 	// []  -> [] (empty list)
-	// https://github.com/airchains-network/cosmos-sdk/blob/be9bd7a8c1b41b115d58f4e76ee358e18a52c0af/types/coin.go#L199
+	// https://github.com/cosmos/cosmos-sdk/blob/be9bd7a8c1b41b115d58f4e76ee358e18a52c0af/types/coin.go#L199
 
 	// explicitly show the default for clarity
 	pulsar := &bankapi.SendAuthorization{SpendLimit: []*v1beta1.Coin{}}
@@ -546,7 +546,7 @@ func TestDecimalMutation(t *testing.T) {
 	require.NoError(t, err)
 	rateBz, _ = encCfg.Amino.MarshalJSON(rates)
 
-	// prior to the merge of https://github.com/airchains-network/cosmos-sdk/pull/15506
+	// prior to the merge of https://github.com/cosmos/cosmos-sdk/pull/15506
 	// gogoproto.Marshal would mutate Decimal fields changing JSON output as shown in the assertions below
 	// require.NotEqual(t, `{"rate":"0","max_rate":"0","max_change_rate":"0"}`, string(rateBz))
 	// require.Equal(t,

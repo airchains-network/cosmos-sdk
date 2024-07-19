@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/simulation"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/simulation"
 )
 
 func TestRandSubsetCoins(t *testing.T) {

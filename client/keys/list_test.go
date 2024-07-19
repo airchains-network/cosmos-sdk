@@ -8,15 +8,15 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/crypto/hd"
-	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
 )
 
 func cleanupKeys(t *testing.T, kb keyring.Keyring, keys ...string) func() {

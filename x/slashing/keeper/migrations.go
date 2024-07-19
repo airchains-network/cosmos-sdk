@@ -1,12 +1,12 @@
 package keeper
 
 import (
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/slashing/exported"
-	v2 "github.com/airchains-network/cosmos-sdk/x/slashing/migrations/v2"
-	v3 "github.com/airchains-network/cosmos-sdk/x/slashing/migrations/v3"
-	v4 "github.com/airchains-network/cosmos-sdk/x/slashing/migrations/v4"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/slashing/exported"
+	v2 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v2"
+	v3 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v3"
+	v4 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v4"
 )
 
 // Migrator is a struct for handling in-place store migrations.

@@ -16,14 +16,14 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp"
-	baseapptestutil "github.com/airchains-network/cosmos-sdk/baseapp/testutil"
-	"github.com/airchains-network/cosmos-sdk/baseapp/testutil/mock"
-	codectestutil "github.com/airchains-network/cosmos-sdk/codec/testutil"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/mempool"
-	authtx "github.com/airchains-network/cosmos-sdk/x/auth/tx"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	baseapptestutil "github.com/cosmos/cosmos-sdk/baseapp/testutil"
+	"github.com/cosmos/cosmos-sdk/baseapp/testutil/mock"
+	codectestutil "github.com/cosmos/cosmos-sdk/codec/testutil"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/mempool"
+	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 )
 
 const (

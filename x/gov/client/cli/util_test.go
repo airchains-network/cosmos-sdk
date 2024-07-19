@@ -15,16 +15,16 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	v1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
-	"github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
-	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 func TestParseSubmitLegacyProposal(t *testing.T) {

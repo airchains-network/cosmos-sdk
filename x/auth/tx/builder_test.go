@@ -8,15 +8,15 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/codec/legacy"
-	"github.com/airchains-network/cosmos-sdk/codec/testutil"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	txtypes "github.com/airchains-network/cosmos-sdk/types/tx"
-	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/cosmos/cosmos-sdk/codec/testutil"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 )
 
 func TestTxBuilder(t *testing.T) {

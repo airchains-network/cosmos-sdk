@@ -8,9 +8,9 @@ import (
 
 	"cosmossdk.io/store/prefix"
 
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/types/query"
-	"github.com/airchains-network/cosmos-sdk/x/slashing/types"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/x/slashing/types"
 )
 
 var _ types.QueryServer = Querier{}

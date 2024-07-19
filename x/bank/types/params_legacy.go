@@ -3,9 +3,9 @@ package types
 import (
 	fmt "fmt"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/bank/exported"
-	paramtypes "github.com/airchains-network/cosmos-sdk/x/params/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/bank/exported"
+	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 )
 
 var (

@@ -18,11 +18,11 @@ import (
 	sdkmath "cosmossdk.io/math"
 	"cosmossdk.io/x/tx/signing"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/codec/types"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 )
 
 func createTestInterfaceRegistry() types.InterfaceRegistry {

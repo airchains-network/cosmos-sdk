@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/auth"
-	authclient "github.com/airchains-network/cosmos-sdk/x/auth/client"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/auth"
+	authclient "github.com/cosmos/cosmos-sdk/x/auth/client"
 )
 
 func TestParseQueryResponse(t *testing.T) {

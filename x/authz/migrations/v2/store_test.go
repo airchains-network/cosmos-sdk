@@ -8,18 +8,18 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/authz"
-	v2 "github.com/airchains-network/cosmos-sdk/x/authz/migrations/v2"
-	authzmodule "github.com/airchains-network/cosmos-sdk/x/authz/module"
-	"github.com/airchains-network/cosmos-sdk/x/bank"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	govtypes "github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/authz"
+	v2 "github.com/cosmos/cosmos-sdk/x/authz/migrations/v2"
+	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
+	"github.com/cosmos/cosmos-sdk/x/bank"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 func TestMigration(t *testing.T) {

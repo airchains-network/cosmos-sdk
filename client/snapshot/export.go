@@ -5,8 +5,8 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/airchains-network/cosmos-sdk/server"
-	servertypes "github.com/airchains-network/cosmos-sdk/server/types"
+	"github.com/cosmos/cosmos-sdk/server"
+	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 )
 
 // ExportSnapshotCmd returns a command to take a snapshot of the application state

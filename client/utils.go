@@ -8,9 +8,9 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	"github.com/airchains-network/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/types/query"
 )
 
 // Paginate returns the correct starting and ending index for a paginated query,

@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/client/input"
-	"github.com/airchains-network/cosmos-sdk/crypto/hd"
-	"github.com/airchains-network/cosmos-sdk/version"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/client/input"
+	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/cosmos/cosmos-sdk/version"
 )
 
 // ImportKeyCommand imports private keys from a keyfile.

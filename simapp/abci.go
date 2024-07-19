@@ -8,8 +8,8 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 type (

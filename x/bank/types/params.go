@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // DefaultDefaultSendEnabled is the value that DefaultSendEnabled will have from DefaultParams().

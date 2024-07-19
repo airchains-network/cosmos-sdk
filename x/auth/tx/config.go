@@ -9,11 +9,11 @@ import (
 	"cosmossdk.io/x/tx/signing/directaux"
 	"cosmossdk.io/x/tx/signing/textual"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	signingtypes "github.com/airchains-network/cosmos-sdk/types/tx/signing"
-	authcodec "github.com/airchains-network/cosmos-sdk/x/auth/codec"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	authcodec "github.com/cosmos/cosmos-sdk/x/auth/codec"
 )
 
 type config struct {

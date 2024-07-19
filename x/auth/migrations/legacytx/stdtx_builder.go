@@ -1,11 +1,11 @@
 package legacytx
 
 import (
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	"github.com/airchains-network/cosmos-sdk/types/tx"
-	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 )
 
 // StdTxBuilder wraps StdTx to implement to the context.TxBuilder interface.

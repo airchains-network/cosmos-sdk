@@ -8,10 +8,10 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/log"
 
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/auth/keeper"
-	"github.com/airchains-network/cosmos-sdk/x/auth/testutil"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
+	"github.com/cosmos/cosmos-sdk/x/auth/testutil"
 )
 
 func BenchmarkAccountMapperGetAccountFound(b *testing.B) {

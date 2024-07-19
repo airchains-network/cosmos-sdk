@@ -5,7 +5,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/airchains-network/cosmos-sdk/crypto/hd"
+	"github.com/cosmos/cosmos-sdk/crypto/hd"
 )
 
 func FuzzCryptoHDNewParamsFromPath(f *testing.F) {

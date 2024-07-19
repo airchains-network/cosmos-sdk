@@ -8,10 +8,10 @@ import (
 	cmtproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/params/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/params/types/proposal"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/x/params/simulation"
+	"github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 )
 
 type MockParamChange struct {

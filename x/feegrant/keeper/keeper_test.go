@@ -13,13 +13,13 @@ import (
 	"cosmossdk.io/x/feegrant/module"
 	feegranttestutil "cosmossdk.io/x/feegrant/testutil"
 
-	codecaddress "github.com/airchains-network/cosmos-sdk/codec/address"
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
+	codecaddress "github.com/cosmos/cosmos-sdk/codec/address"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 
 type KeeperTestSuite struct {

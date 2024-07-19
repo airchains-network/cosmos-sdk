@@ -5,7 +5,7 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // Default period for deposits & voting

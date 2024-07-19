@@ -5,7 +5,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/airchains-network/cosmos-sdk/crypto/types"
+	"github.com/cosmos/cosmos-sdk/crypto/types"
 )
 
 // The code in this file is adapted from agl/ed25519.

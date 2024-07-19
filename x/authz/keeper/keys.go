@@ -3,11 +3,11 @@ package keeper
 import (
 	"time"
 
-	"github.com/airchains-network/cosmos-sdk/internal/conv"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/address"
-	"github.com/airchains-network/cosmos-sdk/types/kv"
-	"github.com/airchains-network/cosmos-sdk/x/authz"
+	"github.com/cosmos/cosmos-sdk/internal/conv"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/address"
+	"github.com/cosmos/cosmos-sdk/types/kv"
+	"github.com/cosmos/cosmos-sdk/x/authz"
 )
 
 // Keys for store prefixes

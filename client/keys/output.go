@@ -1,11 +1,11 @@
 package keys
 
 import (
-	"github.com/airchains-network/cosmos-sdk/codec"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // Use protobuf interface marshaler rather then generic JSON

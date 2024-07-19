@@ -8,11 +8,11 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/log"
 
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	authkeeper "github.com/airchains-network/cosmos-sdk/x/auth/keeper"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
-	"github.com/airchains-network/cosmos-sdk/x/distribution/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/distribution/types"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/x/distribution/testutil"
+	"github.com/cosmos/cosmos-sdk/x/distribution/types"
 )
 
 func TestItCreatesModuleAccountOnInitBlock(t *testing.T) {

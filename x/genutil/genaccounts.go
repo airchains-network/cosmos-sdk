@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
-	authvesting "github.com/airchains-network/cosmos-sdk/x/auth/vesting/types"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	genutiltypes "github.com/airchains-network/cosmos-sdk/x/genutil/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	authvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 )
 
 // AddGenesisAccount adds a genesis account to the genesis state.

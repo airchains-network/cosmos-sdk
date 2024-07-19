@@ -13,19 +13,19 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	"github.com/airchains-network/cosmos-sdk/types/simulation"
-	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
-	"github.com/airchains-network/cosmos-sdk/x/auth/ante"
-	authsign "github.com/airchains-network/cosmos-sdk/x/auth/signing"
-	"github.com/airchains-network/cosmos-sdk/x/auth/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/auth/tx"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/x/auth/ante"
+	authsign "github.com/cosmos/cosmos-sdk/x/auth/signing"
+	"github.com/cosmos/cosmos-sdk/x/auth/testutil"
+	"github.com/cosmos/cosmos-sdk/x/auth/tx"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 
 func TestDeductFeesNoDelegation(t *testing.T) {

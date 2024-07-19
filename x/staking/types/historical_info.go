@@ -10,8 +10,8 @@ import (
 	"cosmossdk.io/errors"
 	"cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 )
 
 // NewHistoricalInfo will create a historical information struct from header and valset

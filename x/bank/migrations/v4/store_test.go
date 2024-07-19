@@ -7,14 +7,14 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/bank"
-	"github.com/airchains-network/cosmos-sdk/x/bank/exported"
-	v4 "github.com/airchains-network/cosmos-sdk/x/bank/migrations/v4"
-	"github.com/airchains-network/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/bank"
+	"github.com/cosmos/cosmos-sdk/x/bank/exported"
+	v4 "github.com/cosmos/cosmos-sdk/x/bank/migrations/v4"
+	"github.com/cosmos/cosmos-sdk/x/bank/types"
 )
 
 type mockSubspace struct {

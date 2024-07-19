@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/auth/ante"
-	"github.com/airchains-network/cosmos-sdk/x/auth/tx"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/ante"
+	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 )
 
 func TestRejectExtensionOptionsDecorator(t *testing.T) {

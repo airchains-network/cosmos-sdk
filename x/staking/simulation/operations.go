@@ -7,15 +7,15 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp"
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/staking/keeper"
-	"github.com/airchains-network/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
+	"github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 // Simulation operation weights constants
@@ -505,7 +505,7 @@ func SimulateMsgCancelUnbondingDelegate(
 		// currently the staking msgServer chooses the first unbondingDelegationEntry
 		// with the matching creationHeight.
 		//
-		// ref: https://github.com/airchains-network/cosmos-sdk/issues/12932
+		// ref: https://github.com/cosmos/cosmos-sdk/issues/12932
 		creationHeight := unbondingDelegation.Entries[r.Intn(len(unbondingDelegation.Entries))].CreationHeight
 
 		var unbondingDelegationEntry types.UnbondingDelegationEntry

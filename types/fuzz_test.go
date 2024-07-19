@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec"
 )
 
 func FuzzCoinUnmarshalJSON(f *testing.F) {

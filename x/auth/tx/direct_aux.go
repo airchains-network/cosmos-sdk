@@ -6,12 +6,12 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	types "github.com/airchains-network/cosmos-sdk/types/tx"
-	signingtypes "github.com/airchains-network/cosmos-sdk/types/tx/signing"
-	"github.com/airchains-network/cosmos-sdk/x/auth/signing"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	types "github.com/cosmos/cosmos-sdk/types/tx"
+	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
+	"github.com/cosmos/cosmos-sdk/x/auth/signing"
 )
 
 var _ signing.SignModeHandler = signModeDirectAuxHandler{}

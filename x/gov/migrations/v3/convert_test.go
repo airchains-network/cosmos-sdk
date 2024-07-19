@@ -8,12 +8,12 @@ import (
 
 	"cosmossdk.io/math"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	"github.com/airchains-network/cosmos-sdk/types/tx"
-	v3 "github.com/airchains-network/cosmos-sdk/x/gov/migrations/v3"
-	v1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
-	"github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/types/tx"
+	v3 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v3"
+	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 func TestConvertToLegacyProposal(t *testing.T) {

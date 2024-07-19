@@ -9,10 +9,10 @@ import (
 	"cosmossdk.io/client/v2/autocli/keyring"
 	"cosmossdk.io/core/address"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/codec/types"
-	cryptocodec "github.com/airchains-network/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 )
 
 type addressStringType struct{}

@@ -4,12 +4,12 @@ import (
 	"math/rand"
 	"time"
 
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/module"
-	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	"github.com/airchains-network/cosmos-sdk/x/group"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/module"
+	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/x/group"
 )
 
 const (

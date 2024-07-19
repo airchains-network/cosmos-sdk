@@ -10,11 +10,11 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/address"
-	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/staking/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/staking/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/address"
+	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/x/staking/simulation"
+	"github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 func TestProposalMsgs(t *testing.T) {

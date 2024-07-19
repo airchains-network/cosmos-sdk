@@ -9,7 +9,7 @@ import (
 
 	"cosmossdk.io/tools/confix"
 
-	"github.com/airchains-network/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client"
 )
 
 var (

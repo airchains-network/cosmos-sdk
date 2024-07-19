@@ -8,9 +8,9 @@ import (
 
 	pruningtypes "cosmossdk.io/store/pruning/types"
 
-	"github.com/airchains-network/cosmos-sdk/telemetry"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/telemetry"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 const (
@@ -121,7 +121,7 @@ type APIConfig struct {
 
 	// TODO: TLS/Proxy configuration.
 	//
-	// Ref: https://github.com/airchains-network/cosmos-sdk/issues/6420
+	// Ref: https://github.com/cosmos/cosmos-sdk/issues/6420
 }
 
 // GRPCConfig defines configuration for the gRPC server.

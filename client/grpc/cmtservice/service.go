@@ -9,14 +9,14 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp"
-	"github.com/airchains-network/cosmos-sdk/client"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	cryptocodec "github.com/airchains-network/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	qtypes "github.com/airchains-network/cosmos-sdk/types/query"
-	"github.com/airchains-network/cosmos-sdk/version"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/cosmos/cosmos-sdk/client"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	qtypes "github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/version"
 )
 
 var (

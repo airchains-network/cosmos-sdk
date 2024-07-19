@@ -6,7 +6,7 @@ import (
 	autocliv1 "cosmossdk.io/api/cosmos/autocli/v1"
 	evidencev1beta1 "cosmossdk.io/api/cosmos/evidence/v1beta1"
 
-	"github.com/airchains-network/cosmos-sdk/version"
+	"github.com/cosmos/cosmos-sdk/version"
 )
 
 // AutoCLIOptions implements the autocli.HasAutoCLIConfig interface.

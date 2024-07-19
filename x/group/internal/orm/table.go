@@ -10,9 +10,9 @@ import (
 	"cosmossdk.io/store/prefix"
 	"cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	"github.com/airchains-network/cosmos-sdk/x/group/errors"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	"github.com/cosmos/cosmos-sdk/x/group/errors"
 )
 
 var (

@@ -10,7 +10,7 @@ import (
 
 	"cosmossdk.io/simapp"
 
-	"github.com/airchains-network/cosmos-sdk/testutil/network"
+	"github.com/cosmos/cosmos-sdk/testutil/network"
 )
 
 func TestE2ETestSuite(t *testing.T) {

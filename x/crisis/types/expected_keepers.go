@@ -3,7 +3,7 @@ package types
 import (
 	context "context"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // SupplyKeeper defines the expected supply keeper (noalias)

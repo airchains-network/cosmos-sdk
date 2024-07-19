@@ -5,7 +5,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types"
 )
 
 func FuzzTypesParseDecCoin(f *testing.F) {

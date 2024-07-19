@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/testutil"
+	"github.com/cosmos/cosmos-sdk/testutil"
 )
 
 func TestApplyMockIO(t *testing.T) {

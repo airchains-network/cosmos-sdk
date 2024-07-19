@@ -12,17 +12,17 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/codec/address"
-	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
-	svrcmd "github.com/airchains-network/cosmos-sdk/server/cmd"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	testutilmod "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/auth/vesting"
-	"github.com/airchains-network/cosmos-sdk/x/auth/vesting/client/cli"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/codec/address"
+	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	testutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/x/auth/vesting"
+	"github.com/cosmos/cosmos-sdk/x/auth/vesting/client/cli"
 )
 
 type CLITestSuite struct {

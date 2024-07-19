@@ -6,9 +6,9 @@ package tx
 import (
 	context "context"
 	fmt "fmt"
-	types "github.com/airchains-network/cosmos-sdk/types"
-	query "github.com/airchains-network/cosmos-sdk/types/query"
 	types1 "github.com/cometbft/cometbft/proto/tendermint/types"
+	types "github.com/cosmos/cosmos-sdk/types"
+	query "github.com/cosmos/cosmos-sdk/types/query"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"

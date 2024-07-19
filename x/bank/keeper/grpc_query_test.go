@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/query"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
-	vestingtypes "github.com/airchains-network/cosmos-sdk/x/auth/vesting/types"
-	"github.com/airchains-network/cosmos-sdk/x/bank/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/bank/types"
-	minttypes "github.com/airchains-network/cosmos-sdk/x/mint/types"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	vestingtypes "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
+	"github.com/cosmos/cosmos-sdk/x/bank/testutil"
+	"github.com/cosmos/cosmos-sdk/x/bank/types"
+	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 )
 
 func (suite *KeeperTestSuite) TestQueryBalance() {

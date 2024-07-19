@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/x/group"
+	"github.com/cosmos/cosmos-sdk/x/group"
 )
 
 func TestThresholdDecisionPolicyValidate(t *testing.T) {

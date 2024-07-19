@@ -14,9 +14,9 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
-	grpctypes "github.com/airchains-network/cosmos-sdk/types/grpc"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
 )
 
 // GRPCQueryRouter returns the GRPCQueryRouter of a BaseApp.

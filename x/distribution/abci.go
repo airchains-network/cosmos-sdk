@@ -3,10 +3,10 @@ package distribution
 import (
 	"time"
 
-	"github.com/airchains-network/cosmos-sdk/telemetry"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/distribution/keeper"
-	"github.com/airchains-network/cosmos-sdk/x/distribution/types"
+	"github.com/cosmos/cosmos-sdk/telemetry"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
+	"github.com/cosmos/cosmos-sdk/x/distribution/types"
 )
 
 // BeginBlocker sets the proposer for determining distribution during endblock
@@ -21,7 +21,7 @@ func BeginBlocker(ctx sdk.Context, k keeper.Keeper) error {
 	}
 
 	// TODO this is Tendermint-dependent
-	// ref https://github.com/airchains-network/cosmos-sdk/issues/3095
+	// ref https://github.com/cosmos/cosmos-sdk/issues/3095
 	if ctx.BlockHeight() > 1 {
 		if err := k.AllocateTokens(ctx, previousTotalPower, ctx.VoteInfos()); err != nil {
 			return err

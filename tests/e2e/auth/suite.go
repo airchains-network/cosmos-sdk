@@ -14,28 +14,28 @@ import (
 	"cosmossdk.io/depinject"
 	"cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	addresscodec "github.com/airchains-network/cosmos-sdk/codec/address"
-	"github.com/airchains-network/cosmos-sdk/crypto/hd"
-	"github.com/airchains-network/cosmos-sdk/crypto/keyring"
-	kmultisig "github.com/airchains-network/cosmos-sdk/crypto/keys/multisig"
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	clitestutil "github.com/airchains-network/cosmos-sdk/testutil/cli"
-	"github.com/airchains-network/cosmos-sdk/testutil/network"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/tx"
-	"github.com/airchains-network/cosmos-sdk/types/tx/signing"
-	authcli "github.com/airchains-network/cosmos-sdk/x/auth/client/cli"
-	authclitestutil "github.com/airchains-network/cosmos-sdk/x/auth/client/testutil"
-	authtestutil "github.com/airchains-network/cosmos-sdk/x/auth/testutil"
-	bank "github.com/airchains-network/cosmos-sdk/x/bank/client/cli"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
-	"github.com/airchains-network/cosmos-sdk/x/genutil/client/cli"
-	govtestutil "github.com/airchains-network/cosmos-sdk/x/gov/client/testutil"
-	govtypes "github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"
+	"github.com/cosmos/cosmos-sdk/crypto/hd"
+	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	kmultisig "github.com/cosmos/cosmos-sdk/crypto/keys/multisig"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
+	"github.com/cosmos/cosmos-sdk/testutil/network"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/tx"
+	"github.com/cosmos/cosmos-sdk/types/tx/signing"
+	authcli "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
+	authclitestutil "github.com/cosmos/cosmos-sdk/x/auth/client/testutil"
+	authtestutil "github.com/cosmos/cosmos-sdk/x/auth/testutil"
+	bank "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
+	govtestutil "github.com/cosmos/cosmos-sdk/x/gov/client/testutil"
+	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 type E2ETestSuite struct {
@@ -1265,7 +1265,7 @@ func TestGetBroadcastCommandWithoutOfflineFlag(t *testing.T) {
 
 // TestTxWithoutPublicKey makes sure sending a proto tx message without the
 // public key doesn't cause any error in the RPC layer (broadcast).
-// See https://github.com/airchains-network/cosmos-sdk/issues/7585 for more details.
+// See https://github.com/cosmos/cosmos-sdk/issues/7585 for more details.
 func (s *E2ETestSuite) TestTxWithoutPublicKey() {
 	val1 := s.network.Validators[0]
 	txCfg := val1.ClientCtx.TxConfig

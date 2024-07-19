@@ -10,11 +10,11 @@ import (
 	"google.golang.org/grpc/encoding"
 	"google.golang.org/protobuf/runtime/protoiface"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp/internal/protocompat"
-	"github.com/airchains-network/cosmos-sdk/client/grpc/reflection"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/baseapp/internal/protocompat"
+	"github.com/cosmos/cosmos-sdk/client/grpc/reflection"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // GRPCQueryRouter routes ABCI Query requests to GRPC handlers

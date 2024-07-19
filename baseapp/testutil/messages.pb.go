@@ -6,8 +6,8 @@ package testutil
 import (
 	context "context"
 	fmt "fmt"
-	_ "github.com/airchains-network/cosmos-sdk/codec/types"
-	_ "github.com/airchains-network/cosmos-sdk/types/msgservice"
+	_ "github.com/cosmos/cosmos-sdk/codec/types"
+	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"

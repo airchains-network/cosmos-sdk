@@ -3,10 +3,10 @@ package v4
 import (
 	storetypes "cosmossdk.io/core/store"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/auth/exported"
-	"github.com/airchains-network/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/exported"
+	"github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 
 var ParamsKey = []byte{0x00}

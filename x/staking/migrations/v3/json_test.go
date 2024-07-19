@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	v3 "github.com/airchains-network/cosmos-sdk/x/staking/migrations/v3"
-	"github.com/airchains-network/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/client"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	v3 "github.com/cosmos/cosmos-sdk/x/staking/migrations/v3"
+	"github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 func TestMigrateJSON(t *testing.T) {

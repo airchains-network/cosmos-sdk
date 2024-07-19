@@ -13,10 +13,10 @@ This repository is a cloned version of Cosmos SDK v0.50.3, customized for tracks
 To use this customized Cosmos SDK as a Go module in your project, add the following line to your go.mod file:
 
 ```sh
-require github.com/airchains-network/cosmos-sdk-v0.50.3 v0.0.1
+require github.com/cosmos/cosmos-sdk-v0.50.3
 go mod tidy
 ```
 OR 
 ```sh
-go get github.com/airchains-network/cosmos-sdk-v0.50.3 v0.0.1
+go get github.com/cosmos/cosmos-sdk-v0.50.3
 ```

@@ -23,17 +23,17 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/client/grpc/cmtservice"
-	rpc "github.com/airchains-network/cosmos-sdk/client/rpc"
-	cryptocodec "github.com/airchains-network/cosmos-sdk/crypto/codec"
-	servercmtlog "github.com/airchains-network/cosmos-sdk/server/log"
-	"github.com/airchains-network/cosmos-sdk/server/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/query"
-	"github.com/airchains-network/cosmos-sdk/version"
-	auth "github.com/airchains-network/cosmos-sdk/x/auth/client/cli"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/client/grpc/cmtservice"
+	rpc "github.com/cosmos/cosmos-sdk/client/rpc"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	servercmtlog "github.com/cosmos/cosmos-sdk/server/log"
+	"github.com/cosmos/cosmos-sdk/server/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/version"
+	auth "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
 )
 
 // StatusCommand returns the command to return the status of the network.

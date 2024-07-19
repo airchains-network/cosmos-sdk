@@ -6,13 +6,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/tx"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/version"
-	govv1beta1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
-	paramscutils "github.com/airchains-network/cosmos-sdk/x/params/client/utils"
-	paramproposal "github.com/airchains-network/cosmos-sdk/x/params/types/proposal"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/tx"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/version"
+	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
+	paramscutils "github.com/cosmos/cosmos-sdk/x/params/client/utils"
+	paramproposal "github.com/cosmos/cosmos-sdk/x/params/types/proposal"
 )
 
 // NewSubmitParamChangeProposalTxCmd returns a CLI command handler for creating

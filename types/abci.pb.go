@@ -5,9 +5,9 @@ package types
 
 import (
 	fmt "fmt"
-	types "github.com/airchains-network/cosmos-sdk/codec/types"
 	types1 "github.com/cometbft/cometbft/abci/types"
 	types2 "github.com/cometbft/cometbft/proto/tendermint/types"
+	types "github.com/cosmos/cosmos-sdk/codec/types"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
 	io "io"

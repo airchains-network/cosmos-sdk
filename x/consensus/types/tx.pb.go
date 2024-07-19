@@ -6,10 +6,10 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	_ "github.com/airchains-network/cosmos-sdk/types/msgservice"
-	_ "github.com/airchains-network/cosmos-sdk/types/tx/amino"
 	types "github.com/cometbft/cometbft/proto/tendermint/types"
 	_ "github.com/cosmos/cosmos-proto"
+	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
+	_ "github.com/cosmos/cosmos-sdk/types/tx/amino"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
 	grpc "google.golang.org/grpc"

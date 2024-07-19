@@ -3,8 +3,8 @@ package mempool
 import (
 	"fmt"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/auth/signing"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/signing"
 )
 
 // SignerData contains canonical useful information about the signer of a transaction

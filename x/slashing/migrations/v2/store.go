@@ -5,9 +5,9 @@ import (
 
 	storetypes "cosmossdk.io/core/store"
 
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	v2distribution "github.com/airchains-network/cosmos-sdk/x/distribution/migrations/v2"
-	v1 "github.com/airchains-network/cosmos-sdk/x/slashing/migrations/v1"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	v2distribution "github.com/cosmos/cosmos-sdk/x/distribution/migrations/v2"
+	v1 "github.com/cosmos/cosmos-sdk/x/slashing/migrations/v1"
 )
 
 // MigrateStore performs in-place store migrations from v0.40 to v0.43. The

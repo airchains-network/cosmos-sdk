@@ -10,13 +10,13 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/server"
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/simulation"
-	simcli "github.com/airchains-network/cosmos-sdk/x/simulation/client/cli"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/server"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/x/simulation"
+	simcli "github.com/cosmos/cosmos-sdk/x/simulation/client/cli"
 )
 
 var FlagEnableBenchStreamingValue bool

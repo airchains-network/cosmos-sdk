@@ -8,12 +8,12 @@ import (
 
 	"cosmossdk.io/errors"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/client/flags"
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/server"
-	"github.com/airchains-network/cosmos-sdk/x/genutil"
-	"github.com/airchains-network/cosmos-sdk/x/genutil/types"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/client/flags"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/server"
+	"github.com/cosmos/cosmos-sdk/x/genutil"
+	"github.com/cosmos/cosmos-sdk/x/genutil/types"
 )
 
 const flagGenTxDir = "gentx-dir"

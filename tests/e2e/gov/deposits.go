@@ -9,13 +9,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	"github.com/airchains-network/cosmos-sdk/testutil/network"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/gov/client/cli"
-	govclitestutil "github.com/airchains-network/cosmos-sdk/x/gov/client/testutil"
-	v1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
-	"github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/cosmos/cosmos-sdk/testutil/network"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
+	govclitestutil "github.com/cosmos/cosmos-sdk/x/gov/client/testutil"
+	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
+	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 type DepositTestSuite struct {

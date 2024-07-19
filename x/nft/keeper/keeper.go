@@ -5,7 +5,7 @@ import (
 	store "cosmossdk.io/core/store"
 	"cosmossdk.io/x/nft"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec"
 )
 
 // Keeper of the nft store

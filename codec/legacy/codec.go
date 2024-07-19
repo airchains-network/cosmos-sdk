@@ -1,10 +1,10 @@
 package legacy
 
 import (
-	"github.com/airchains-network/cosmos-sdk/codec"
-	cryptocodec "github.com/airchains-network/cosmos-sdk/crypto/codec"
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // Cdc defines a global generic sealed Amino codec to be used throughout sdk. It

@@ -10,17 +10,17 @@ import (
 	"cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/codec/address"
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	authtypes "github.com/airchains-network/cosmos-sdk/x/auth/types"
-	"github.com/airchains-network/cosmos-sdk/x/distribution"
-	"github.com/airchains-network/cosmos-sdk/x/distribution/keeper"
-	distrtestutil "github.com/airchains-network/cosmos-sdk/x/distribution/testutil"
-	disttypes "github.com/airchains-network/cosmos-sdk/x/distribution/types"
-	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
+	"github.com/cosmos/cosmos-sdk/codec/address"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/cosmos/cosmos-sdk/x/distribution"
+	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
+	distrtestutil "github.com/cosmos/cosmos-sdk/x/distribution/testutil"
+	disttypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 func TestCalculateRewardsBasic(t *testing.T) {

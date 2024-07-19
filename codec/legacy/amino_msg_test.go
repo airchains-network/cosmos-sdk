@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/codec/legacy"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 )
 
 func TestRegisterAminoMsg(t *testing.T) {

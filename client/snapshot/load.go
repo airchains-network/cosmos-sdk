@@ -14,7 +14,7 @@ import (
 
 	snapshottypes "cosmossdk.io/store/snapshots/types"
 
-	"github.com/airchains-network/cosmos-sdk/server"
+	"github.com/cosmos/cosmos-sdk/server"
 )
 
 const SnapshotFileName = "_snapshot"

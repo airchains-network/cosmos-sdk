@@ -8,10 +8,10 @@ import (
 
 	"cosmossdk.io/core/comet"
 
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/slashing/types"
-	stakingtypes "github.com/airchains-network/cosmos-sdk/x/staking/types"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/slashing/types"
+	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 // HandleValidatorSignature handles a validator signature, must be called once per validator per block.

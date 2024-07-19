@@ -19,12 +19,12 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec/legacy"
-	"github.com/airchains-network/cosmos-sdk/server/config"
-	servercmtlog "github.com/airchains-network/cosmos-sdk/server/log"
-	"github.com/airchains-network/cosmos-sdk/telemetry"
-	grpctypes "github.com/airchains-network/cosmos-sdk/types/grpc"
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec/legacy"
+	"github.com/cosmos/cosmos-sdk/server/config"
+	servercmtlog "github.com/cosmos/cosmos-sdk/server/log"
+	"github.com/cosmos/cosmos-sdk/telemetry"
+	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
 )
 
 // Server defines the server's API interface.

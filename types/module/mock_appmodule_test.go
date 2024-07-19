@@ -3,7 +3,7 @@ package module_test
 import (
 	"cosmossdk.io/core/appmodule"
 
-	"github.com/airchains-network/cosmos-sdk/types/module"
+	"github.com/cosmos/cosmos-sdk/types/module"
 )
 
 // AppModuleWithAllExtensions is solely here for the purpose of generating

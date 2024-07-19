@@ -21,7 +21,7 @@ import (
 	"cosmossdk.io/client/v2/internal/util"
 	"cosmossdk.io/core/address"
 
-	"github.com/airchains-network/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/runtime"
 )
 
 const (

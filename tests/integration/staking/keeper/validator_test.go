@@ -9,13 +9,13 @@ import (
 
 	"cosmossdk.io/math"
 
-	cryptotypes "github.com/airchains-network/cosmos-sdk/crypto/types"
-	simtestutil "github.com/airchains-network/cosmos-sdk/testutil/sims"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	banktestutil "github.com/airchains-network/cosmos-sdk/x/bank/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/staking/keeper"
-	"github.com/airchains-network/cosmos-sdk/x/staking/testutil"
-	"github.com/airchains-network/cosmos-sdk/x/staking/types"
+	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
+	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	banktestutil "github.com/cosmos/cosmos-sdk/x/bank/testutil"
+	"github.com/cosmos/cosmos-sdk/x/staking/keeper"
+	"github.com/cosmos/cosmos-sdk/x/staking/testutil"
+	"github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 func newMonikerValidator(tb testing.TB, operator sdk.ValAddress, pubKey cryptotypes.PubKey, moniker string) types.Validator {

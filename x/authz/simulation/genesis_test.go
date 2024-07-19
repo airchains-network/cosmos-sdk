@@ -9,13 +9,13 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/airchains-network/cosmos-sdk/types/module"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	simtypes "github.com/airchains-network/cosmos-sdk/types/simulation"
-	"github.com/airchains-network/cosmos-sdk/x/authz"
-	authzmodule "github.com/airchains-network/cosmos-sdk/x/authz/module"
-	"github.com/airchains-network/cosmos-sdk/x/authz/simulation"
-	banktypes "github.com/airchains-network/cosmos-sdk/x/bank/types"
+	"github.com/cosmos/cosmos-sdk/types/module"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/x/authz"
+	authzmodule "github.com/cosmos/cosmos-sdk/x/authz/module"
+	"github.com/cosmos/cosmos-sdk/x/authz/simulation"
+	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 )
 
 func TestRandomizedGenState(t *testing.T) {

@@ -8,12 +8,12 @@ import (
 	"cosmossdk.io/log"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/baseapp"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/group"
-	"github.com/airchains-network/cosmos-sdk/x/group/errors"
-	"github.com/airchains-network/cosmos-sdk/x/group/internal/orm"
+	"github.com/cosmos/cosmos-sdk/baseapp"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/cosmos/cosmos-sdk/x/group/errors"
+	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
 )
 
 const (

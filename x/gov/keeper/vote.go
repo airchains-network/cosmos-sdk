@@ -7,9 +7,9 @@ import (
 	"cosmossdk.io/collections"
 	"cosmossdk.io/errors"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/x/gov/types"
-	v1 "github.com/airchains-network/cosmos-sdk/x/gov/types/v1"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	v1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 )
 
 // AddVote adds a vote on a specific proposal

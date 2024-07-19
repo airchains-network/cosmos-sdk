@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/airchains-network/cosmos-sdk/server"
+	"github.com/cosmos/cosmos-sdk/server"
 )
 
 func DeleteSnapshotCmd() *cobra.Command {

@@ -11,10 +11,10 @@ import (
 	"cosmossdk.io/x/nft/module"
 	"cosmossdk.io/x/nft/simulation"
 
-	"github.com/airchains-network/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/kv"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/kv"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
 )
 
 var (

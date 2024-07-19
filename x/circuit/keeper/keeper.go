@@ -8,7 +8,7 @@ import (
 	"cosmossdk.io/core/store"
 	"cosmossdk.io/x/circuit/types"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/codec"
 )
 
 // Keeper defines the circuit module's keeper.

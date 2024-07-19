@@ -13,10 +13,10 @@ import (
 	storetypes "cosmossdk.io/core/store"
 	"cosmossdk.io/errors"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/x/consensus/exported"
-	"github.com/airchains-network/cosmos-sdk/x/consensus/types"
-	govtypes "github.com/airchains-network/cosmos-sdk/x/gov/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/x/consensus/exported"
+	"github.com/cosmos/cosmos-sdk/x/consensus/types"
+	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 )
 
 var StoreKey = "Consensus"

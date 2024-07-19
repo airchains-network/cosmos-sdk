@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/airchains-network/cosmos-sdk/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // Verify interface at compile time

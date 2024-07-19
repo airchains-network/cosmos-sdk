@@ -10,16 +10,16 @@ import (
 	"cosmossdk.io/math"
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/airchains-network/cosmos-sdk/runtime"
-	"github.com/airchains-network/cosmos-sdk/testutil"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/address"
-	moduletestutil "github.com/airchains-network/cosmos-sdk/types/module/testutil"
-	v1 "github.com/airchains-network/cosmos-sdk/x/gov/migrations/v1"
-	v2 "github.com/airchains-network/cosmos-sdk/x/gov/migrations/v2"
-	"github.com/airchains-network/cosmos-sdk/x/gov/types"
-	"github.com/airchains-network/cosmos-sdk/x/gov/types/v1beta1"
+	"github.com/cosmos/cosmos-sdk/runtime"
+	"github.com/cosmos/cosmos-sdk/testutil"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/address"
+	moduletestutil "github.com/cosmos/cosmos-sdk/types/module/testutil"
+	v1 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v1"
+	v2 "github.com/cosmos/cosmos-sdk/x/gov/migrations/v2"
+	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	"github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 )
 
 func TestMigrateStore(t *testing.T) {

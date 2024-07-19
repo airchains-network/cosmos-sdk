@@ -9,11 +9,11 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/query"
-	"github.com/airchains-network/cosmos-sdk/x/group"
-	"github.com/airchains-network/cosmos-sdk/x/group/errors"
-	"github.com/airchains-network/cosmos-sdk/x/group/internal/orm"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/cosmos/cosmos-sdk/x/group/errors"
+	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
 )
 
 var _ group.QueryServer = Keeper{}

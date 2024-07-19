@@ -3,8 +3,8 @@ package v2
 import (
 	"encoding/binary"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/address"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/address"
 )
 
 var ValidatorMissedBlockBitArrayKeyPrefix = []byte{0x02}

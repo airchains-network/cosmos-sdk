@@ -9,14 +9,14 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/airchains-network/cosmos-sdk/client"
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/server/config"
-	"github.com/airchains-network/cosmos-sdk/server/grpc/gogoreflection"
-	reflection "github.com/airchains-network/cosmos-sdk/server/grpc/reflection/v2alpha1"
-	"github.com/airchains-network/cosmos-sdk/server/types"
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	_ "github.com/airchains-network/cosmos-sdk/types/tx/amino" // Import amino.proto file for reflection
+	"github.com/cosmos/cosmos-sdk/client"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/server/config"
+	"github.com/cosmos/cosmos-sdk/server/grpc/gogoreflection"
+	reflection "github.com/cosmos/cosmos-sdk/server/grpc/reflection/v2alpha1"
+	"github.com/cosmos/cosmos-sdk/server/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	_ "github.com/cosmos/cosmos-sdk/types/tx/amino" // Import amino.proto file for reflection
 )
 
 // NewGRPCServer returns a correctly configured and initialized gRPC server.

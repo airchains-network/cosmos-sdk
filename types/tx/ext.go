@@ -1,7 +1,7 @@
 package tx
 
 import (
-	"github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/codec/types"
 )
 
 // TxExtensionOptionI defines the interface for tx extension options

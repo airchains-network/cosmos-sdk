@@ -4,10 +4,10 @@ import (
 	gocontext "context"
 	"time"
 
-	sdk "github.com/airchains-network/cosmos-sdk/types"
-	"github.com/airchains-network/cosmos-sdk/types/query"
-	"github.com/airchains-network/cosmos-sdk/x/slashing/testutil"
-	slashingtypes "github.com/airchains-network/cosmos-sdk/x/slashing/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/query"
+	"github.com/cosmos/cosmos-sdk/x/slashing/testutil"
+	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 )
 
 func (s *KeeperTestSuite) TestGRPCQueryParams() {

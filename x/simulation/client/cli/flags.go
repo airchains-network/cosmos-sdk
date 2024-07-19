@@ -3,7 +3,7 @@ package cli
 import (
 	"flag"
 
-	"github.com/airchains-network/cosmos-sdk/types/simulation"
+	"github.com/cosmos/cosmos-sdk/types/simulation"
 )
 
 const DefaultSeedValue = 42

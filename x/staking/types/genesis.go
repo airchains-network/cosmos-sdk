@@ -3,8 +3,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/airchains-network/cosmos-sdk/codec"
-	codectypes "github.com/airchains-network/cosmos-sdk/codec/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 )
 
 // NewGenesisState creates a new GenesisState instanc e

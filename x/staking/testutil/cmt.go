@@ -6,8 +6,8 @@ import (
 
 	"cosmossdk.io/math"
 
-	cryptocodec "github.com/airchains-network/cosmos-sdk/crypto/codec"
-	"github.com/airchains-network/cosmos-sdk/x/staking/types"
+	cryptocodec "github.com/cosmos/cosmos-sdk/crypto/codec"
+	"github.com/cosmos/cosmos-sdk/x/staking/types"
 )
 
 // GetCmtConsPubKey gets the validator's public key as a cmtcrypto.PubKey.

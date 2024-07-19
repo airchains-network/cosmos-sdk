@@ -1,8 +1,8 @@
 package orm
 
 import (
-	"github.com/airchains-network/cosmos-sdk/codec"
-	"github.com/airchains-network/cosmos-sdk/testutil/testdata"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 )
 
 type TestKeeper struct {

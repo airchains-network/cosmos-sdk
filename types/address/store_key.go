@@ -3,7 +3,7 @@ package address
 import (
 	errorsmod "cosmossdk.io/errors"
 
-	sdkerrors "github.com/airchains-network/cosmos-sdk/types/errors"
+	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 // MaxAddrLen is the maximum allowed length (in bytes) for an address.
