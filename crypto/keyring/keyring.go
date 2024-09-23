@@ -911,7 +911,6 @@ func (ks keystore) migrate(key string) (*Record, error) {
 
 	// 1. get the key.
 	item, err := ks.db.Get(key)
-	fmt.Println("item : ", item)
 	if err != nil {
 		return nil, wrapKeyNotFound(err, key)
 	}
